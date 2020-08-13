@@ -1,0 +1,30 @@
+2020-08-13 16:15:26
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:15:44
+-1 events happened--/home/tt/web_server/tt_webserver/net/Epoll.cc : -48
+2020-08-13 16:15:44
+new Connection --/home/tt/web_server/tt_webserver/net/TcpServer.cc : -94
+2020-08-13 16:15:44
+ init TcpConnection::TcpConnection--/home/tt/web_server/tt_webserver/net/TcpConnection.cc : -42
+2020-08-13 16:16:08
+-1 events happened--/home/tt/web_server/tt_webserver/net/Epoll.cc : -48
+2020-08-13 16:16:08
+new Connection --/home/tt/web_server/tt_webserver/net/TcpServer.cc : -94
+2020-08-13 16:16:08
+ init TcpConnection::TcpConnection--/home/tt/web_server/tt_webserver/net/TcpConnection.cc : -42
+2020-08-13 16:17:56
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:18:50
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:21:02
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:23:49
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:27:29
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:28:04
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:30:22
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
+2020-08-13 16:51:06
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/web_server/tt_webserver/http/HttpServer.cc : -48
