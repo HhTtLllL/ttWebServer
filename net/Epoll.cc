@@ -47,7 +47,7 @@ void Epoll::epoll(ChannelList* activeChannels){
 	//	std::cout << "numEvents = " << numEvents << std::endl;
 	//TODO 计时
 	if(numEvents > 0){
-		LOG << numEvents << " events happened";
+		//LOG << numEvents << " events happened";
 
 
 	//	std::cout << "处理活动 "  << std::endl;
@@ -58,7 +58,7 @@ void Epoll::epoll(ChannelList* activeChannels){
 		}
 	}else if( numEvents == 0){
 
-		LOG << "no happened";
+	//	LOG << "no happened";
 	}else{
 
 		if(saveErrno != EINTR){
@@ -160,7 +160,7 @@ void Epoll::removeChannel(Channel* channel){
 	int fd = channel->fd();
 	
 	//std::cout << "fd = " << fd << std::endl;
-	LOG << " fd = " << fd;
+	//LOG << " fd = " << fd;
 	//删除的前提 肯定存在
 	assert(m_channels.find(fd) != m_channels.end());
   	assert(m_channels[fd] == channel);

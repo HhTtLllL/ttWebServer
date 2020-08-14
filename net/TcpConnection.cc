@@ -39,14 +39,14 @@ TcpConnection::TcpConnection(EventLoop* loop, const std::string& name, int sockf
 		m_channel->setCloseCallBack(std::bind(&TcpConnection::handleClose,this));
 		m_channel->setErrorCallBack(std::bind(&TcpConnection::handleError, this));
 
-		LOG << " init TcpConnection::TcpConnection";
+		//LOG << " init TcpConnection::TcpConnection";
 
 		m_socket->setKeepAlive(true);
 }
 
 TcpConnection::~TcpConnection(){
 
-	LOG << "TcpConnection::~TcpConnection";
+	//LOG << "TcpConnection::~TcpConnection";
 	assert(m_state == kDisconnected);
 }
 

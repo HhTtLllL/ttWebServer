@@ -89,7 +89,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 
 	std::string connName = m_name + buf;
 
-	LOG << "new Connection ";
+	//LOG << "new Connection ";
 
 	InetAddress localAddr(socket::getLocalAddr(sockfd));
 	TcpConnectionPtr conn(new TcpConnection(ioLoop, connName, sockfd, localAddr, peerAddr));
@@ -118,7 +118,7 @@ void TcpServer::removeConnectionInLoop(const TcpConnectionPtr& conn){
 
 	m_loop->assertInLoopThread();
 
-	LOG << " removeConnectionInLoop";
+	//LOG << " removeConnectionInLoop";
 
 	size_t n = m_connections.erase(conn->name());
 
