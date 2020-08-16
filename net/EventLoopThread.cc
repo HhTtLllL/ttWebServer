@@ -30,14 +30,11 @@ EventLoopThread::~EventLoopThread(){
 EventLoop* EventLoopThread::startLoop(){
 
 	assert(!m_thread.started());
-
-
 	m_thread.start();
 
 	EventLoop* loop = NULL;
 	
 	{
-
 		MutexLockGuard lock(m_mutex);
 
 		while(m_loop == NULL){
@@ -59,14 +56,13 @@ void EventLoopThread::threadFunc(){
 	{
 
 		MutexLockGuard lock(m_mutex);
-
+		// loop 指针指向了一个栈上的对象， threadFunc 函数退出之后，这个指针就失效了
+		//  threadFunc 函数退出，就以为这线程退出了，EventLoopTgread 对象也就没有存在的价值了
 		m_loop = &loop;
-
 		m_cond.notify();
 	}
 
 	loop.loop();
-
 	MutexLockGuard lock(m_mutex);
 	
 	m_loop = NULL;

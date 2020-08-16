@@ -17,7 +17,7 @@ namespace net
 class Channel;
 class EventLoop;
 
-
+//主动连接的抽象
 //主动发起连接,带有自动重连的功能
 
 class Connector : noncopyable, public std::enable_shared_from_this<Connector>{

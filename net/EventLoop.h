@@ -75,7 +75,7 @@ private:
 	bool m_eventHandling;    //enentHandling 是否正在处理event 事件
 	bool m_callingPendingFunctors;  //是否正在调用pendingFunctors_ 的函数对象
 
-	const pid_t m_threadId;
+	const pid_t m_threadId;   //当前线程所属ID
 
 	std::unique_ptr<Epoll> m_epoll;//生成期由EventLoop 控制
 

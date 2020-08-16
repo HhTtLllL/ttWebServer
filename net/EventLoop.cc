@@ -14,6 +14,8 @@
 using namespace tt;
 using namespace tt::net;
 
+//当前线程EventLoop 对象指针， 线程局部存储
+
 __thread EventLoop* t_loopInThisThread = 0;
 
 const int kEpollTmeMs = 10000;
@@ -60,9 +62,6 @@ EventLoop::EventLoop()
 
 		m_wakeupChannel->enableReading();
 
-
-
-
 }
 
 EventLoop::~EventLoop(){
@@ -75,10 +74,12 @@ EventLoop::~EventLoop(){
 }
 
 
+//事件循序
 void EventLoop::loop(){
 
 	assert(!m_looping);
 
+	assertInLoopThread();
 	m_looping = true;
 	m_quit = false;
 
@@ -200,6 +201,8 @@ bool EventLoop::hasChannel(Channel* channel){
 void EventLoop::wakeup(){
 
 	uint64_t one = 1;
+
+	//m_wakeupFd 的类型是  eventfd  , eventf 只有  8 个字节
 	ssize_t n = socket::write(m_wakeupFd, &one, sizeof(one));
 	//唤醒另一个线程 往这个线程中写入 8 个字节,就可以唤醒这个线
 	//sockets::write(m_wakeupFd,&one,sizeof(one));
@@ -209,6 +212,7 @@ void EventLoop::wakeup(){
 void EventLoop::handleRead(){
 
 	uint64_t one = 1;
+	//再把 之前写入的 8 个字节 读出
 	ssize_t n = socket::read(m_wakeupFd, &one, sizeof(one));
 	//sockets::read(m_wakeupFd,&one,sizeof(one));
 }

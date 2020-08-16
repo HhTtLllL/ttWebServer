@@ -11,6 +11,7 @@ namespace tt
 namespace net
 {
 
+//被动连接的抽象， 关注监听套接字的可读事件
 class EventLoop;
 class InetAddress;
 

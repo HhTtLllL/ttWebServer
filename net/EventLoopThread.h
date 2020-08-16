@@ -44,7 +44,8 @@ private:
 	MutexLock m_mutex;
 	Condition m_cond THREAD_ANNOTATION_ATTRIBUTE__(guatded_by(m_mutex));
 
-	ThreadInitCallback m_callback;
+	ThreadInitCallback m_callback; //如果 不是空的，在loop 事件循环之前被调用
+	
 };
 
 

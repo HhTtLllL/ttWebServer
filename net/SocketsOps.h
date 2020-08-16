@@ -14,7 +14,7 @@ namespace net
 namespace socket
 {
 
-//对socket 相关系统调用进行封装,全局函
+//对socket 相关系统调用进行封装,全局函数
 
 	int createNonblockingOrDie(sa_family_t family);
 

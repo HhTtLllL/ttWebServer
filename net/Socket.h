@@ -5,17 +5,15 @@
 
 struct tcp_info;
 
+// 用RAII 方法封装 socket file descriptor 
 namespace tt
 {
-
 namespace net
 {
 
 class InetAddress;
 
-
 class Socket : noncopyable{
-
 	
 public:
 
@@ -27,19 +25,17 @@ public:
 	~Socket();
 
 	int fd() const { return m_sockfd; }
-	bool getTcpInfo(struct tcp_info*) const;
 
+	bool getTcpInfo(struct tcp_info*) const;
 	bool getTcpInfoString(char* buf, int len) const;
 
 	void bindAddress(const InetAddress& localaddr);
-
 	void listen();
 
 	int accept(InetAddress* peeraddr);
 	void shutdownWrite();
 
 	void setTcpNoDelay(bool on);
-
 	//设置地址复用
 	void setReuseAddr(bool on);
 	//设置端口复用
@@ -53,15 +49,9 @@ public:
 private:
 	const int m_sockfd;
 
-
-
-
 };
 
-
-
 } //net 
-
 
 }//tt 
 
