@@ -78,7 +78,7 @@ void TcpServer::start(){
 
  
 void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
-
+	std::cout << "Tcp new Connection " << std::endl;
 	m_loop->assertInLoopThread();
 
 	EventLoop* ioLoop = m_threadPool->getNextLoop();

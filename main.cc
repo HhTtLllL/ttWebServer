@@ -78,6 +78,7 @@ int main(int argc, char* argv[])
 
   //std::cout << "numThreads = " <<  numThreads << std::endl;
   EventLoop loop;
+  
   HttpServer server(&loop, InetAddress(8000), "dummy");
   server.setHttpCallback(onRequest);
   server.setThreadNum(numThreads);
@@ -89,6 +90,9 @@ int main(int argc, char* argv[])
   std::cout << "begin loop "  << std::endl;
   loop.loop();
 }
+
+
+
 
 char favicon[555] = {
   '\x89', 'P', 'N', 'G', '\xD', '\xA', '\x1A', '\xA',

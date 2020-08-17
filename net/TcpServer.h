@@ -32,7 +32,7 @@ public:
 
 
 
-	TcpServer(EventLoop* loop, const InetAddress& listenAddr, const std::string& name, Option option = kNoReusePort);
+	TcpServer(EventLoop* loop, const InetAddress& listenAddr, const std::string& name, Option option = kReusePort);
 	~TcpServer();
 
 	const std::string& ipPort() const { return m_ipPort; }

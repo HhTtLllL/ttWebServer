@@ -103,7 +103,6 @@ private:
 	void handleRead();
 	void handleWrite();
 	void handleClose();
-
 	//channel 中可能有错误事件
 	void handleError();
 

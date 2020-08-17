@@ -117,7 +117,6 @@ void TcpConnection::sendInLoop(const void* data, size_t len){
 	  
 	//是否关注可写事件
 	//通道 没有关注可写事件  并且   发送缓冲区没有数据,直接writ
-	
 	if(!m_channel->isWriting() && m_outputBuffer.readableBytes() == 0){
 	
 		nwrote = socket::write(m_channel->fd(), data, len);
