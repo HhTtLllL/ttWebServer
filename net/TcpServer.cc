@@ -78,15 +78,18 @@ void TcpServer::start(){
 
  
 void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
-	std::cout << "Tcp new Connection " << std::endl;
+	std::cout << "  new Connection " << std::endl;
 	m_loop->assertInLoopThread();
 
 	EventLoop* ioLoop = m_threadPool->getNextLoop();
 
 	char buf[64];
 	snprintf(buf, sizeof(buf), "-%s#%d", m_ipPort.c_str(), m_nextConnId);
+
+	std::cout <<"m_name = " << m_name << "buf = " <<  buf << std::endl;
 	++m_nextConnId;
 
+  // m_name  从 httpServer 中传来
 	std::string connName = m_name + buf;
 
 	//LOG << "new Connection ";

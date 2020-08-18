@@ -5,6 +5,7 @@
 #include "Socket.h"
 #include "SocketsOps.h"
 #include <error.h>
+#include <iostream>
 
 
 using namespace tt;
@@ -56,7 +57,6 @@ bool TcpConnection::getTcpInfo(struct tcp_info* tcpi) const{
 }
 
 void TcpConnection::send(const void* data, int len){
-
 
 	send(std::string(static_cast<const char*>(data), len));
 
@@ -311,8 +311,8 @@ void TcpConnection::handleRead(){
 
 void TcpConnection::handleWrite(){
 
-	m_loop->assertInLoopThread();
 
+	m_loop->assertInLoopThread();
 	//如果处于 EPOLLOUT 事件
 	if(m_channel->isWriting()){
 	

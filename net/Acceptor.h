@@ -37,6 +37,7 @@ public:
 	~Acceptor();
 
 
+//回调 TcpServer ->newConnection
 	void setNewConnectionCallback(const NewConnectionCallback& cb){ m_newConnectionCallback = cb; }
 
 	bool listenning() const { return m_listenning; }

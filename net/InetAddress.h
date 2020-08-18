@@ -54,7 +54,7 @@ public:
 	static bool resolve(std::string hostname, InetAddress* result);
 
 private:
-	struct sockaddr_in m_addr;
+	struct sockaddr_in m_addr;  //网际地址
 
 };
 

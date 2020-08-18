@@ -76,7 +76,7 @@ void Epoll::fillActiveChannels(int numEvents, ChannelList* activeChannels) const
 	for(int i = 0 ; i < numEvents ; ++ i){
 	
 		// ptr 里面的内容是在 update 的时候放进取的
-		Channel* channel = static_cast<Channel*>(m_events[i].data.ptr);
+	Channel* channel = static_cast<Channel*>(m_events[i].data.ptr);
 
 #ifndef NDEBUG
 		int fd = channel->fd();
