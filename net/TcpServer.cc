@@ -5,7 +5,6 @@
 #include "EventLoopThreadPool.h"
 #include "SocketsOps.h"
 #include <iostream>
-
 #include <stdio.h>
 
 using namespace tt;
@@ -35,7 +34,7 @@ TcpServer::TcpServer(EventLoop* loop, const InetAddress& listenAddr, const std::
 	m_messageCallback(defaultMessageCallback),
 	m_nextConnId(1){
 
-		std::cout << "port = " << m_ipPort << std::endl;
+		//	std::cout << "port = " << m_ipPort << std::endl;
 	
 		m_acceptor->setNewConnectionCallback(std::bind(&TcpServer::newConnection, this, _1, _2));
 }
@@ -54,8 +53,8 @@ TcpServer::~TcpServer(){
 	}
 }
 
+//设置线程数
 void TcpServer::setThreadNum(int numThreads){
-
 
 	assert(0 <= numThreads);
 	m_threadPool->setThreadNum(numThreads);
@@ -67,9 +66,7 @@ void TcpServer::start(){
 	
 
 		m_threadPool->start(m_threadInitCallback);
-
 		//判断是否处于监听状态
-
 		assert(!m_acceptor->listenning());
 
 		m_loop->runInLoop(std::bind(&Acceptor::listen, get_pointer(m_acceptor)));
@@ -78,7 +75,8 @@ void TcpServer::start(){
 
  
 void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
-	std::cout << "  new Connection " << std::endl;
+	
+  //  std::cout << "  new Connection " << std::endl;
 	m_loop->assertInLoopThread();
 
 	EventLoop* ioLoop = m_threadPool->getNextLoop();
@@ -86,7 +84,7 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 	char buf[64];
 	snprintf(buf, sizeof(buf), "-%s#%d", m_ipPort.c_str(), m_nextConnId);
 
-	std::cout <<"m_name = " << m_name << "buf = " <<  buf << std::endl;
+	//std::cout <<"m_name = " << m_name << "buf = " <<  buf << std::endl;
 	++m_nextConnId;
 
   // m_name  从 httpServer 中传来
@@ -102,7 +100,6 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 	conn->setConnectionCallback(m_connectionCallback);
 	conn->setMessageCallback(m_messageCallback);
 	conn->setWriteCompleteCallback(m_writeCompleteCallback); 
-
 	conn->setCloseCallback(std::bind(&TcpServer::removeConnection,this,_1));
 
 	ioLoop->runInLoop(std::bind(&TcpConnection::connectEstablished, conn));
@@ -112,7 +109,6 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 void TcpServer::removeConnection(const TcpConnectionPtr& conn){
 
 	m_loop->runInLoop(std::bind(&TcpServer::removeConnectionInLoop, this, conn));
-
 }
 
 
@@ -129,43 +125,6 @@ void TcpServer::removeConnectionInLoop(const TcpConnectionPtr& conn){
 	(void)n;
 	assert(n == 1);
 
-	assert(n == 1);
-
 	EventLoop* ioLoop = conn->getLoop();
 	ioLoop->queueInLoop(std::bind(&TcpConnection::connectDestroyed, conn));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

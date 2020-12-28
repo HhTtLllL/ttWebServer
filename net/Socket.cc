@@ -21,9 +21,9 @@ bool Socket::getTcpInfo(struct tcp_info* tcpi) const{
 	socklen_t len = sizeof(*tcpi);
 	memset(tcpi, 0, len);
 
+	//将获得的信息传入到 tcpi 中
 	return ::getsockopt(m_sockfd, SOL_TCP, TCP_INFO, tcpi, &len) == 0;
 }
-
 
 void Socket::bindAddress(const InetAddress& addr){
 
@@ -41,7 +41,6 @@ int Socket::accept(InetAddress* peeraddr){
 	memset(&addr, 0, sizeof(addr));
 
 	int connfd = socket::accept(m_sockfd, &addr);
-
 	if(connfd >= 0){ peeraddr->setSockAddrInet(addr); }
 
 	return connfd;
@@ -85,29 +84,3 @@ void Socket::setKeepAlive(bool on){
 	::setsockopt(m_sockfd, SOL_SOCKET, SO_KEEPALIVE, &optval, static_cast<socklen_t>(sizeof(optval)));
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

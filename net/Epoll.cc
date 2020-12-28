@@ -17,15 +17,15 @@ namespace {
 	const int kNew = -1;
 	const int kAdded = 1;
 	const int kDeleted = 2;
-
-
 }
 
 Epoll::Epoll(EventLoop* loop)
 	: m_ownerLoop(loop),
 	m_epollfd(::epoll_create1(EPOLL_CLOEXEC)),
 	m_events(kInitEventListSize){
+
 		if (m_epollfd < 0){
+
 			LOG << "Epoll 初始化失败";
 		}
 }
@@ -54,6 +54,7 @@ void Epoll::epoll(ChannelList* activeChannels){
 		fillActiveChannels(numEvents, activeChannels);
 
 		if( implicit_cast<size_t>(numEvents) == m_events.size() ){
+
 			m_events.resize(m_events.size() * 2);
 		}
 	}else if( numEvents == 0){
@@ -76,7 +77,7 @@ void Epoll::fillActiveChannels(int numEvents, ChannelList* activeChannels) const
 	for(int i = 0 ; i < numEvents ; ++ i){
 	
 		// ptr 里面的内容是在 update 的时候放进取的
-	Channel* channel = static_cast<Channel*>(m_events[i].data.ptr);
+		Channel* channel = static_cast<Channel*>(m_events[i].data.ptr);
 
 #ifndef NDEBUG
 		int fd = channel->fd();
@@ -88,10 +89,7 @@ void Epoll::fillActiveChannels(int numEvents, ChannelList* activeChannels) const
 		channel->set_revents(m_events[i].events);
 
 		activeChannels->push_back(channel);
-
 	}
-
-
 }
 
 //更新或者添加响应事件
@@ -122,8 +120,8 @@ void Epoll::updateChannel(Channel* channel){
 		(void)fd; //TODO  为什么转换呢
 
 		assert(m_channels.find(fd) != m_channels.end());
-    		assert(m_channels[fd] == channel);
-    		assert(index == kAdded);
+    	assert(m_channels[fd] == channel);
+    	assert(index == kAdded);
 
 		if(channel->isNoneEvent()){
 
@@ -164,6 +162,8 @@ void Epoll::removeChannel(Channel* channel){
 	//删除的前提 肯定存在
 	assert(m_channels.find(fd) != m_channels.end());
   	assert(m_channels[fd] == channel);
+
+	//判断这个通道没有事件了 
   	assert(channel->isNoneEvent());
 
 	int index = channel->index();
@@ -185,11 +185,3 @@ bool Epoll::hasChannel(Channel* channel) const{
 
 	return it != m_channels.end() && it->second == channel;
 }
-
-
-
-
-
-
-
-

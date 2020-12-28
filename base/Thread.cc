@@ -11,11 +11,8 @@
 #include "Logging.h"
 #include "Thread.h"
 #include "CurrentThread.h"
-//:#include "CurrentThread.h"
+//#include "CurrentThread.h"
 //#include "CountDownLatch.h"
-
-
-
 
 /*
 namespace CurrentThread {
@@ -59,8 +56,8 @@ void afterFork()
 class ThreadNameInitializer
 {
  public:
-  ThreadNameInitializer()
-  {
+  ThreadNameInitializer() { 
+
     tt::CurrentThread::t_threadName = "main";
     CurrentThread::tid();
     /*
@@ -78,6 +75,7 @@ class ThreadNameInitializer
 ThreadNameInitializer init;
 
 	struct ThreadData{
+
 		typedef tt::Thread::ThreadFunc m_ThreadFunc;
 		m_ThreadFunc m_func;
 		std::string m_name;
@@ -86,8 +84,7 @@ ThreadNameInitializer init;
 
 		
 		ThreadData(m_ThreadFunc func,const std::string& name,
-				pid_t* tid,
-				CountDownLatch* latch)
+				pid_t* tid, CountDownLatch* latch)
 			:m_func(std::move(func)),
 			m_name(name),
 			m_tid(tid),
@@ -137,15 +134,14 @@ ThreadNameInitializer init;
 
 void CurrentThread::cacheTid(){
 	if(t_cachedTid == 0){
-		t_cachedTid = detail::gettid();
 
+		t_cachedTid = detail::gettid();
 		t_tidStringLength = snprintf(t_tidString,sizeof(t_tidString), "%5d",t_cachedTid);
 	}
 }
 
 
 AtomicInt32 Thread::m_numCreated;
-
 
 Thread::Thread(ThreadFunc func,const std::string& name)
 		:m_started(false),
@@ -160,6 +156,7 @@ Thread::Thread(ThreadFunc func,const std::string& name)
 }
 
 Thread::~Thread(){
+
 	if(m_started && !m_joined) pthread_detach(m_pthreadId);
 }
 
@@ -168,6 +165,7 @@ void Thread::setDefaultName(){
 	int num = m_numCreated.incrementAndGet();
 	
 	if(m_name.empty()){
+
 		char buf[32];
 		snprintf(buf,sizeof(buf),"Thread %d",num);
 
@@ -177,32 +175,33 @@ void Thread::setDefaultName(){
 
 
 void Thread::start(){
+
 	assert(!m_started);
 	m_started = true;
 
 	detail::ThreadData* data = new detail::ThreadData(m_func,m_name,&m_tid,&m_latch);
 	
 	if(pthread_create(&m_pthreadId,NULL,&detail::startThread,data)){
+
 		m_started = false;
 		delete data;
 
 		LOG << "Failed in pthread_create" ;
 	}else{
+
 		m_latch.wait(); //阻塞, 使用信号
 		assert(m_tid>0);
 	}
-
 }
 
 int Thread::join(){
+
 	assert(m_started);
 	assert(!m_joined);
+
 	m_joined = true;
 
 	return pthread_join(m_pthreadId,NULL); //等待线程结束，收集资源
 }
-
-
-
 
 }

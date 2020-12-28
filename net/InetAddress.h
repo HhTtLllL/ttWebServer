@@ -1,11 +1,10 @@
 #ifndef TT_NET_INETADDRESS_H
 #define TT_NET_INETADDRESS_H
 
-
+#include <cstddef>
 #include "../base/copyable.h"
 //TODO Stringpiece
 #include <netinet/in.h>
-
 #include <string>
 
 namespace tt
@@ -25,11 +24,9 @@ class InetAddress : public tt::copyable
 
 public:
 	explicit InetAddress(uint16_t port = 0 , bool loopbackOnly = false);
-
 	InetAddress(std::string ip, uint16_t port);
 
 	//仅指定 port ，不指定 ip 则ip 为INADDR_ANY 0.0.0.0
-	
 	explicit InetAddress(const struct sockaddr_in& addr)
 		:m_addr(addr){
 		
@@ -43,7 +40,6 @@ public:
 	
 	uint16_t toPort() const;
 
-  
 	const struct sockaddr* getSockAddr() const { return socket::sockaddr_cast(&m_addr); }
   
 	void setSockAddrInet(const struct sockaddr_in& addr4) { m_addr = addr4; }
@@ -58,14 +54,8 @@ private:
 
 };
 
-
 }//net
 
-
 }// tt
-
-
-
-
 
 #endif

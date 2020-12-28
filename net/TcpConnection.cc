@@ -15,7 +15,6 @@ using namespace tt::net;
 void tt::net::defaultConnectionCallback(const TcpConnectionPtr& conn){
 
 	//TODO
-
 }
 
 void tt::net::defaultMessageCallback(const TcpConnectionPtr&, Buffer* buf){
@@ -137,9 +136,6 @@ void TcpConnection::sendInLoop(const void* data, size_t len){
 				LOG << "TcpConnection::sendInLoop";
 			}
 		}
-		
-		
-
 	}
 
 	assert(remaining <= len);

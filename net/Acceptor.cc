@@ -26,8 +26,7 @@ Acceptor::Acceptor(EventLoop* loop, const InetAddress& listenAddr, bool reusepor
 	 m_acceptSocket.setReuseAddr(true);
 	 m_acceptSocket.setReusePort(reuseport);
 	 m_acceptSocket.bindAddress(listenAddr);
-	 m_acceptChannel.setReadCallback( std::bind(&Acceptor::handleRead,this));
-
+	 m_acceptChannel.setReadCallback(std::bind(&Acceptor::handleRead, this));
 }
 
 
@@ -53,12 +52,11 @@ void Acceptor::handleRead(){
 	m_loop->assertInLoopThread();
 
 	InetAddress peerAddr; //准备对等方的地址
-
 	int connfd = m_acceptSocket.accept(&peerAddr);
-
 	if(connfd >= 0){
 	
 		if(m_newConnectionCallback){
+
 			m_newConnectionCallback(connfd,peerAddr);
 		}else{
 		
@@ -69,47 +67,10 @@ void Acceptor::handleRead(){
 		if(errno == EMFILE){
 		
 			::close(m_idleFd);
-
 			m_idleFd = ::accept(m_acceptSocket.fd(), NULL, NULL);
 
 			::close(m_idleFd);
-
 			m_idleFd = ::open("/dev/null", O_RDONLY | O_CLOEXEC );
 		}
 	}
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

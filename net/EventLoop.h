@@ -26,12 +26,10 @@ namespace net{
 class Channel;
 class Epoll;
 
-
 class EventLoop : noncopyable{
 
-
 public:
-	typedef std::function<void()> Functor;
+	typedef std::function<void ()> Functor;
 
 	EventLoop();
 	~EventLoop();
@@ -45,7 +43,6 @@ public:
 	size_t queueSize() const;
 
 	//TODO  定时器
-	
 	void wakeup();
 	void updateChannel(Channel* channel);
 	void removeChannel(Channel* channel);
@@ -89,17 +86,10 @@ private:
 //	THREAD_ANNOTATION_ATTRIBUTE__(guarded_by(x))
 //	表示变量 m_pendingFunctors 被锁保护
 	std::vector<Functor> m_pendingFunctors  THREAD_ANNOTATION_ATTRIBUTE__(guatded_by(m_mutex));  //是当前线程要执行的任务的集
-
-
-
 };
-
 
 }// net
 
-
 }//tt
-
-
 
 #endif

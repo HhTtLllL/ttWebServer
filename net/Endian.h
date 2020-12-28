@@ -54,33 +54,11 @@ namespace socket
 	}
 
 
-
-
-
-
-
-
 } //socket
-
-
-
-
 
 }// net
 
-
-}// t
-
-
-
-
-
-
-
-
-
-
-
+}// tt
 
 
 #endif

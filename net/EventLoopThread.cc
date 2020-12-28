@@ -30,7 +30,7 @@ EventLoopThread::~EventLoopThread(){
 EventLoop* EventLoopThread::startLoop(){
 
 	assert(!m_thread.started());
-	m_thread.start();
+	m_thread.start();				//调用 threadFunc 函数
 
 	EventLoop* loop = NULL;
 	
@@ -54,7 +54,6 @@ void EventLoopThread::threadFunc(){
 	if(m_callback) m_callback(&loop);
 
 	{
-
 		MutexLockGuard lock(m_mutex);
 		// loop 指针指向了一个栈上的对象， threadFunc 函数退出之后，这个指针就失效了
 		//  threadFunc 函数退出，就以为这线程退出了，EventLoopTgread 对象也就没有存在的价值了
@@ -67,7 +66,3 @@ void EventLoopThread::threadFunc(){
 	
 	m_loop = NULL;
 }
-
-
-
-

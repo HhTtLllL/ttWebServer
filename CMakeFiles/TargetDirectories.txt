@@ -1,0 +1,12 @@
+/home/tt/ttWebServer/CMakeFiles/edit_cache.dir
+/home/tt/ttWebServer/CMakeFiles/rebuild_cache.dir
+/home/tt/ttWebServer/CMakeFiles/tt_server.dir
+/home/tt/ttWebServer/net/CMakeFiles/rebuild_cache.dir
+/home/tt/ttWebServer/net/CMakeFiles/edit_cache.dir
+/home/tt/ttWebServer/net/CMakeFiles/NetFunctions.dir
+/home/tt/ttWebServer/http/CMakeFiles/edit_cache.dir
+/home/tt/ttWebServer/http/CMakeFiles/rebuild_cache.dir
+/home/tt/ttWebServer/http/CMakeFiles/HttpFunctions.dir
+/home/tt/ttWebServer/base/CMakeFiles/rebuild_cache.dir
+/home/tt/ttWebServer/base/CMakeFiles/edit_cache.dir
+/home/tt/ttWebServer/base/CMakeFiles/BaseFunctions.dir

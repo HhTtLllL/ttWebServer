@@ -9,6 +9,7 @@
 #include "noncopyable.h"
 #include "CountDownLatch.h"
 #include "../base/Atomic.h"
+
 namespace tt{
 
 class Thread : noncopyable{

@@ -10,7 +10,6 @@ namespace tt
 namespace net
 {
 
-
 namespace socket
 {
 
@@ -30,7 +29,6 @@ namespace socket
 	
 	void close(int sockfd);
 	void shutdownWrite(int sockfd);
-
 
 	void toIpPort(char* buf, size_t size, const struct sockaddr* addr);
 	void toIp(char* buf, size_t size, const struct sockaddr* addr);

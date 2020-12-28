@@ -21,7 +21,6 @@ Channel::Channel(EventLoop* loop,int fd)
 	m_index(-1),
 	m_eventHandling(false),
 	m_addedToLoop(false){
-	
 
 }
 
@@ -55,8 +54,7 @@ void Channel::remove(){
 //当事件到来的时候，会调用 handleEvent
 void Channel::handleEvent(){
 	
-	std::shared_ptr<void> guard;
-
+//	std::shared_ptr<void> guard;
 	handleEventWithGuard();
 }
 
@@ -86,31 +84,3 @@ void Channel::handleEventWithGuard(){
 
 	m_eventHandling = false;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

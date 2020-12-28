@@ -54,7 +54,7 @@ void HttpServer::start(){
 
 void HttpServer::onConnection(const TcpConnectionPtr& conn){
 
-	std::cout << "建立连接 "<< std::endl;
+	//std::cout << "建立连接 "<< std::endl;
 
 	if(conn->connected()){
 	
@@ -65,7 +65,7 @@ void HttpServer::onConnection(const TcpConnectionPtr& conn){
 
 void HttpServer::onMessage(const TcpConnectionPtr& conn, Buffer* buf){
 
-	std::cout << "onMessage ------" << std::endl;
+//	std::cout << "onMessage ------" << std::endl;
 	  
 	//先取出 http 的上下文
 	HttpContext* context = boost::any_cast<HttpContext>(conn->getMutableContext());
@@ -103,39 +103,5 @@ void HttpServer::onRequest(const TcpConnectionPtr& conn, const HttpRequest& req)
 		conn->shutdown();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
