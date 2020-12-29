@@ -23,7 +23,6 @@ template<typename T>
 inline T* get_pointer(const std::unique_ptr<T>& ptr) { return ptr.get(); }
 
 
-
 template<typename To, typename From>
 inline ::std::shared_ptr<To> down_pointer_cast(const ::std::shared_ptr<From>& f){
 
@@ -31,7 +30,6 @@ inline ::std::shared_ptr<To> down_pointer_cast(const ::std::shared_ptr<From>& f)
 	
 		implicit_cast<From*, To*>(0);
 	}
-
 
 	return ::std::static_pointer_cast<To>(f);
 }
@@ -41,8 +39,6 @@ namespace net
 
 class Buffer;
 class TcpConnection;
-
-
 
 
 typedef std::shared_ptr<TcpConnection> TcpConnectionPtr;
@@ -59,17 +55,8 @@ void defaultConnectionCallback(const TcpConnectionPtr& conn);
 
 void defaultMessageCallback(const TcpConnectionPtr& conn, Buffer* buffer);
 
-
-
-
 }//net
 
-
-
 }//tt
-
-
-
-
 
 #endif //TT_NET_CALLBACKS_H

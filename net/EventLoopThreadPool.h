@@ -17,23 +17,16 @@ class EventLoop;
 class EventLoopThread;
 
 //  IO 线程池的功能是开启若干个IO 线程,并让这些IO 线程处于事件循环的状态
-
 class EventLoopThreadPool : noncopyable{
 	
 
 public:
-	typedef std::function<void(EventLoop*)> ThreadInitCallback;
+	typedef std::function<void (EventLoop*)> ThreadInitCallback;
 
 	EventLoopThreadPool(EventLoop* baseloop, const std::string& name);
 	~EventLoopThreadPool();
 
-	void setThreadNum(int numThreads) { 
-		
-		m_numThreads = numThreads; 
-	
-		std::cout << " m_numthread = " <<  m_numThreads << std::endl;
-	
-	}
+	void setThreadNum(int numThreads) {	m_numThreads = numThreads; }
 	void start(const ThreadInitCallback& cb = ThreadInitCallback());
 
 	EventLoop* getNextLoop();
@@ -52,30 +45,12 @@ private:
 	int m_next;
 
 	std::vector<std::unique_ptr<EventLoopThread>> m_threads;
-
 	//这里的是栈上对象,不需要我们来管理
 	std::vector<EventLoop*> m_loops; //EventLoop 列表   一个IO 线程,对应一个 EventLoop 对象
-
-
-
-
-
-
-
-
 };
-
-
-
 
 }//net
 
-
 } //tt
-
-
-
-
-
 
 #endif

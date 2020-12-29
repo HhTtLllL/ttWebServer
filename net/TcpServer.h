@@ -4,7 +4,6 @@
 #include "../base/Common.h"
 #include "TcpConnection.h"
 #include "../base/Atomic.h"
-
 #include <map>
 
 namespace tt
@@ -17,9 +16,7 @@ class Acceptor;
 class EventLoop;
 class EventLoopThreadPool;
 
-
 class TcpServer : noncopyable{
-
 
 public:
 	typedef std::function<void(EventLoop*)> ThreadInitCallback;
@@ -30,8 +27,6 @@ public:
 		kReusePort,
 	};
 
-
-
 	TcpServer(EventLoop* loop, const InetAddress& listenAddr, const std::string& name, Option option = kReusePort);
 	~TcpServer();
 
@@ -40,9 +35,7 @@ public:
 	EventLoop* getLoop() const { return m_loop; }
 
 	void setThreadNum(int numThreads);
-
 	void setThreadInitCallback( const ThreadInitCallback& cb) { m_threadInitCallback = cb; }
-
 
 	std::shared_ptr<EventLoopThreadPool> threadPool() { return m_threadPool; }
 
@@ -51,10 +44,6 @@ public:
 	void setConnectionCallback( const ConnectionCallback& cb) { m_connectionCallback = cb; }
 	void setMessageCallback(const MessageCallback& cb) { m_messageCallback = cb; }
 	void setWriteCompleteCallback(const WriteCompleteCallback& cb) { m_writeCompleteCallback = cb; }
-
-
-
-
 
 private:
 
@@ -71,15 +60,12 @@ private:
 	std::unique_ptr<Acceptor> m_acceptor;
 	std::shared_ptr<EventLoopThreadPool> m_threadPool;
 
-
 	ConnectionCallback m_connectionCallback;
 	MessageCallback m_messageCallback;
-
 	WriteCompleteCallback m_writeCompleteCallback;
 	ThreadInitCallback m_threadInitCallback;
 
 	AtomicInt32 m_started;
-
 	int m_nextConnId;
 
 	ConnectionMap m_connections;
@@ -88,17 +74,5 @@ private:
 }//net
 
 }//tt
-
-
-
-
-
-
-
-
-
-
-
-
 
 #endif //TT_NET_TCPSERVER_H

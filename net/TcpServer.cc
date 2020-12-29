@@ -12,7 +12,6 @@ using namespace tt::net;
 
 
 //TODO  m_loop(CHECK_NOTNULL(loop))
-
 bool check_notNULL(EventLoop* loop)
 {
 	if(loop == NULL) {
@@ -35,7 +34,6 @@ TcpServer::TcpServer(EventLoop* loop, const InetAddress& listenAddr, const std::
 	m_nextConnId(1){
 
 		//	std::cout << "port = " << m_ipPort << std::endl;
-	
 		m_acceptor->setNewConnectionCallback(std::bind(&TcpServer::newConnection, this, _1, _2));
 }
 
@@ -64,7 +62,6 @@ void TcpServer::start(){
 
 	if(m_started.getAndSet(1) == 0){
 	
-
 		m_threadPool->start(m_threadInitCallback);
 		//判断是否处于监听状态
 		assert(!m_acceptor->listenning());
@@ -76,7 +73,7 @@ void TcpServer::start(){
  
 void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 	
-  //  std::cout << "  new Connection " << std::endl;
+    //std::cout << "  new Connection " << std::endl;
 	m_loop->assertInLoopThread();
 
 	EventLoop* ioLoop = m_threadPool->getNextLoop();
@@ -86,10 +83,8 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 
 	//std::cout <<"m_name = " << m_name << "buf = " <<  buf << std::endl;
 	++m_nextConnId;
-
   // m_name  从 httpServer 中传来
 	std::string connName = m_name + buf;
-
 	//LOG << "new Connection ";
 
 	InetAddress localAddr(socket::getLocalAddr(sockfd));

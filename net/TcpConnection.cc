@@ -40,7 +40,6 @@ TcpConnection::TcpConnection(EventLoop* loop, const std::string& name, int sockf
 		m_channel->setErrorCallBack(std::bind(&TcpConnection::handleError, this));
 
 		//LOG << " init TcpConnection::TcpConnection";
-
 		m_socket->setKeepAlive(true);
 }
 
@@ -58,7 +57,6 @@ bool TcpConnection::getTcpInfo(struct tcp_info* tcpi) const{
 void TcpConnection::send(const void* data, int len){
 
 	send(std::string(static_cast<const char*>(data), len));
-
 }
 
 //TODO 有待理解
@@ -74,7 +72,6 @@ void TcpConnection::send(const std::string& message){
 		}
 	}
 }
-
 
 void TcpConnection::send(Buffer* buf){
 
@@ -112,7 +109,6 @@ void TcpConnection::sendInLoop(const void* data, size_t len){
 		LOG << "TcpConnection::sendInLoop";
 		return ;
 	}
-
 	  
 	//是否关注可写事件
 	//通道 没有关注可写事件  并且   发送缓冲区没有数据,直接writ
@@ -162,15 +158,12 @@ void TcpConnection::sendInLoop(const void* data, size_t len){
 void TcpConnection::shutdown(){
 	  
 	// FIXME: use compare and swap
-
 	if(m_state == kConnected){
 	
 		setState(kDisconnecting);
-
-		    // FIXME: shared_from_this()
+		// FIXME: shared_from_this()
 		m_loop->runInLoop(std::bind(&TcpConnection::shutdownInLoop, this));
 	}
-
 }
  /*
     服务器端主动断开与客户端的连接
@@ -199,7 +192,6 @@ void TcpConnection::forceClose(){
 		m_loop->queueInLoop(std::bind(&TcpConnection::forceCloseInLoop,shared_from_this()));
 	}
 }
-
 
 //void TcpConnection::forceCloseWithDelay()
 
@@ -254,7 +246,6 @@ void TcpConnection::stopReadInLoop(){
 void TcpConnection::connectEstablished(){
 
 	m_loop->assertInLoopThread();
-
 	//判断状态
 	assert(m_state == kConnecting);
 
@@ -263,7 +254,6 @@ void TcpConnection::connectEstablished(){
 
 	//将this  转换为 智能指针  shared_ptr
 	m_channel->enableReading();
-
 	m_connectionCallback(shared_from_this());
 }
 
@@ -276,7 +266,6 @@ void TcpConnection::connectDestroyed(){
 	
 		setState(kDisconnected);
 		m_channel->disableAll();
-
 		m_connectionCallback(shared_from_this());
 	}
 
@@ -293,7 +282,6 @@ void TcpConnection::handleRead(){
 	//读通道,将数据读到 缓存区中 ,然后回调 messageCallbac
 	
 	ssize_t n = m_inputBuffer.readFd(m_channel->fd(), &savedErrno);
-
 	if(n > 0){
 		  //把当前对象的裸指针,会把当前Tcp对象转换为 shared_ptr
 		  m_messageCallback(shared_from_this(), &m_inputBuffer);
@@ -307,17 +295,14 @@ void TcpConnection::handleRead(){
 
 void TcpConnection::handleWrite(){
 
-
 	m_loop->assertInLoopThread();
 	//如果处于 EPOLLOUT 事件
 	if(m_channel->isWriting()){
 	
 		ssize_t n = socket::write(m_channel->fd(), m_outputBuffer.peek(), m_outputBuffer.readableBytes());
-
 		if(n > 0){
 		
 			m_outputBuffer.retrieve(n);
-
 			if(m_outputBuffer.readableBytes() == 0){ //发送缓冲区已经清空
 
 				m_channel->disableWriting();
@@ -331,26 +316,21 @@ void TcpConnection::handleWrite(){
 
 		}else  LOG << "TcpConnection::handlewrite";
 	}
-
 }
-
 
 //关闭连接
 void TcpConnection::handleClose(){
 
 	m_loop->assertInLoopThread();
-
 	assert(m_state == kConnected || m_state == kDisconnecting);
 
 	setState(kDisconnected);
-
 	//注销所有事件
 	m_channel->disableAll();
 
 	TcpConnectionPtr gurdThis(shared_from_this());
 
 	m_connectionCallback(gurdThis);
-
 	m_closeCallback(gurdThis);
 }
 
@@ -360,9 +340,4 @@ void TcpConnection::handleError(){
 	int err = socket::getSocketError(m_channel->fd());
 
 	LOG << "TcpConnection::handleError";
-
-
 }
-
-
-

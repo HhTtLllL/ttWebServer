@@ -18,7 +18,7 @@ class EventLoop;
 class EventLoopThread : noncopyable{
 
 public:
-	typedef std::function<void(EventLoop*)> ThreadInitCallback;
+	typedef std::function<void (EventLoop*)> ThreadInitCallback;
 
 	EventLoopThread(const ThreadInitCallback& cb = ThreadInitCallback(), const std::string& name = std::string());
 
@@ -31,7 +31,6 @@ private:
 
 	//线程回调函数
 	void threadFunc();
-
 	//指向 一个eventloop 对象
 	EventLoop* m_loop THREAD_ANNOTATION_ATTRIBUTE__(guatded_by(m_mutex));
 
