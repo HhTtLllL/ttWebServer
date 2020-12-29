@@ -89,7 +89,6 @@ void TcpConnection::send(Buffer* buf){
 	}
 }
 
-
 void TcpConnection::sendInLoop(const std::string& message){
 
 	sendInLoop(message.data(), message.size());

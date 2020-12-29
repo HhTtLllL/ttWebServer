@@ -55,26 +55,19 @@ public:
 	void stopRead();
 	bool isReading() const { return m_reading; };
 
-	void setContext(const boost::any& context)
-	{ m_context = context; }
+	void setContext(const boost::any& context) { m_context = context; }
 
-	const boost::any& getContext() const
-	{ return m_context; }
+	const boost::any& getContext() const { return m_context; }
 
-	boost::any* getMutableContext()
-	{ return &m_context; }
+	boost::any* getMutableContext() { return &m_context; }
 
 	void setConnectionCallback(const ConnectionCallback& cb){ m_connectionCallback = cb; }
-
 	void setMessageCallback(const MessageCallback& cb) { m_messageCallback = cb; }
-
 	void setWriteCompleteCallback(const WriteCompleteCallback& cb){ m_writeCompleteCallback = cb; }
-
 	void setHighWaterMarkCallback(const HighWaterMarkCallback& cb, size_t highWaterMark)
 	{ m_highWaterMarkCallback = cb; m_highWaterMark = highWaterMark; }
 
 	Buffer* inputBuffer(){ return &m_inputBuffer; }
-
 	Buffer* outputBuffer(){ return &m_outputBuffer; }
 
 	void setCloseCallback(const CloseCallback& cb){ m_closeCallback = cb; }
@@ -98,7 +91,7 @@ private:
 
 
 	void forceCloseInLoop();
-	void setState(StateE s) { m_state = s ; }
+	void setState(StateE s) { m_state = s; }
 
 	const char* stateToString() const;
 
@@ -111,14 +104,13 @@ private:
 	bool m_reading;
 
 	std::unique_ptr<Socket> m_socket;
-	std::unique_ptr<Channel> m_channel;
+	std::unique_ptr<Channel> m_channel;			//channel 关注socket 可读可写等事件
 
 
 	const InetAddress m_localAddr; //本地地址
 	const InetAddress m_peerAddr; //对端地址
 	ConnectionCallback m_connectionCallback;
 	MessageCallback m_messageCallback;
-
 
 	//大流量的需要关注
 	/*
@@ -127,7 +119,7 @@ private:
 	   应用层发送缓冲区, 可能会撑爆 应用层的发送缓冲区
 	   解决方法就是调整发送频率,  ----关注 writecompleCallback
 	   所有数据都发送完, writecompleCallback  回调,然后继续发送
-*/
+	*/
 
 	WriteCompleteCallback m_writeCompleteCallback;
 	HighWaterMarkCallback m_highWaterMarkCallback;

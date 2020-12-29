@@ -51,23 +51,24 @@ private:
 	void removeConnection(const TcpConnectionPtr& conn);
 	void removeConnectionInLoop(const TcpConnectionPtr& conn);
 
-	typedef std::map<std::string, TcpConnectionPtr> ConnectionMap;
+	typedef std::map<int, TcpConnectionPtr> ConnectionMap;
 
 	EventLoop* m_loop;
 	const std::string m_ipPort; //服务端口
-	const std::string m_name; 
+	const std::string m_name; 	//服务名称
 
-	std::unique_ptr<Acceptor> m_acceptor;
+	std::unique_ptr<Acceptor> m_acceptor;					//具有绑定监听的功能
 	std::shared_ptr<EventLoopThreadPool> m_threadPool;
 
-	ConnectionCallback m_connectionCallback;
-	MessageCallback m_messageCallback;
+	ConnectionCallback m_connectionCallback;				//连接到来的回调函数
+	MessageCallback m_messageCallback;						//消息到来的回调函数
 	WriteCompleteCallback m_writeCompleteCallback;
 	ThreadInitCallback m_threadInitCallback;
 
 	AtomicInt32 m_started;
-	int m_nextConnId;
+	int m_nextConnId;					//下一个连接ID
 
+	//tcpConnection 列表
 	ConnectionMap m_connections;
 };
 
