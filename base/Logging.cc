@@ -35,7 +35,6 @@ Logger::Impl::Impl(const char * fileName, int line)
 	m_basename(fileName){
 	
 		formatTime(); //格式化时间
-	
 }
 
 void Logger::Impl::formatTime(){
