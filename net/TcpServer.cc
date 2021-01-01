@@ -80,15 +80,15 @@ void TcpServer::newConnection(int sockfd, const InetAddress& peerAddr){
 
 	EventLoop* ioLoop = m_threadPool->getNextLoop();
 
-	char buf[64];
+	//char buf[64];
 	//snprintf(buf, sizeof(buf), "-%s#%d", m_ipPort.c_str(), m_nextConnId);
 
-	snprintf(buf, sizeof(buf), "%d", m_nextConnId);
+	//snprintf(buf, sizeof(buf), "%d", m_nextConnId);
 	//std::cout <<"m_name = " << m_name << "buf = " <<  buf << std::endl;
 	//++m_nextConnId;
   // m_name  从 httpServer 中传来
 	//std::string connName = m_name + buf;
-	std::string connName = buf;
+	std::string connName(std::to_string(m_nextConnId));
 	//LOG << "new Connection ";
 
 	InetAddress localAddr(socket::getLocalAddr(sockfd));

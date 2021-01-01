@@ -13,16 +13,15 @@
 using namespace tt;
 using namespace tt::net;
 
-
 Acceptor::Acceptor(EventLoop* loop, const InetAddress& listenAddr, bool reuseport)
 	:m_loop(loop),
 	m_acceptSocket(socket::createNonblockingOrDie(listenAddr.family())),
 	m_acceptChannel(loop, m_acceptSocket.fd()),
 	m_listenning(false),
-	m_idleFd(::open("/dev/null", O_RDONLY | O_CLOEXEC)) //预先准备一个文件描述符
-{
+	m_idleFd(::open("/dev/null", O_RDONLY | O_CLOEXEC)) {//预先准备一个文件描述符 
 
 	 assert(m_idleFd >= 0);
+
 	 m_acceptSocket.setReuseAddr(true);
 	 m_acceptSocket.setReusePort(reuseport);
 	 m_acceptSocket.bindAddress(listenAddr);
@@ -37,10 +36,10 @@ Acceptor::~Acceptor(){
 	::close(m_idleFd);
 }
 
-
 void Acceptor::listen(){
 
 	m_loop->assertInLoopThread();
+
 	m_listenning = true;
 	m_acceptSocket.listen();
 	//关注套接字的 可读事件,当可读事件到来的时候, 会调用 handleRead
@@ -57,6 +56,7 @@ void Acceptor::handleRead(){
 	
 		if(m_newConnectionCallback){
 
+			// std::move socket 
 			m_newConnectionCallback(connfd,peerAddr);
 		}else{
 		

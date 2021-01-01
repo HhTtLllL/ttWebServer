@@ -252,8 +252,9 @@ void TcpConnection::connectEstablished(){
 	setState(kConnected);
 
 	//将this  转换为 智能指针  shared_ptr
+	//Tcpconnection 的通道加入到 epoll 中关注
 	m_channel->enableReading();
-	m_connectionCallback(shared_from_this());
+	m_connectionCallback(shared_from_this());		//用户的回调函数
 }
 
 
@@ -268,11 +269,10 @@ void TcpConnection::connectDestroyed(){
 		m_connectionCallback(shared_from_this());
 	}
 
-	m_channel->remove();
+	m_channel->remove();		//用 epoll 中移除
 }
 
 //触发 可读事件, 由 handleEvent 调
-
 void TcpConnection::handleRead(){
 
 	m_loop->assertInLoopThread();
@@ -284,12 +284,8 @@ void TcpConnection::handleRead(){
 	if(n > 0){
 		  //把当前对象的裸指针,会把当前Tcp对象转换为 shared_ptr
 		  m_messageCallback(shared_from_this(), &m_inputBuffer);
-
-	}else if( n == 0) handleClose();
-	else{
-	
-		handleError();
-	}
+	}else if(n == 0) handleClose();
+	else handleError();
 }
 
 void TcpConnection::handleWrite(){
@@ -323,14 +319,14 @@ void TcpConnection::handleClose(){
 	m_loop->assertInLoopThread();
 	assert(m_state == kConnected || m_state == kDisconnecting);
 
-	setState(kDisconnected);
+//	setState(kDisconnected);
 	//注销所有事件
-	m_channel->disableAll();
+	//m_channel->disableAll();
 
 	TcpConnectionPtr gurdThis(shared_from_this());
 
-	m_connectionCallback(gurdThis);
-	m_closeCallback(gurdThis);
+	//m_connectionCallback(gurdThis);			//调用用户的一个连接到来的一个回调函数
+	m_closeCallback(gurdThis);				//调用 removeConnextion 
 }
 
 
