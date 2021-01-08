@@ -25,6 +25,7 @@ void once_init(){
 
 
 void output(const char* msg, int len){
+
 	pthread_once(&once_control_, once_init);
 	AsyncLogger_->append(msg, len);
 }
@@ -48,7 +49,6 @@ void Logger::Impl::formatTime(){
 	time = tv.tv_sec;
 
 	struct tm* p_time = localtime(&time);
-
 	strftime(str_t,26,"%Y-%m-%d %H:%M:%S\n",p_time);
 
 	m_stream << str_t;
