@@ -21,12 +21,10 @@ private:
 	size_t mywrite(const char* logline,size_t len);
 	FILE* m_fp;
 	char m_buffer[64*1024];
-
 };
 
 } //FileUtil
 
 } //tt
-
 
 #endif

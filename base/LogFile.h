@@ -6,7 +6,6 @@
 #include "MutexLock.h"
 #include "noncopyable.h"
 
-
 namespace tt{
 
 namespace FileUtil{
@@ -14,7 +13,6 @@ namespace FileUtil{
 class AppendFile;
 
 }//FileUtil
-
 
 class LogFile : noncopyable{
 
@@ -26,6 +24,7 @@ public:
 	void append(const char* logline, int len);
 	void flush();
 	bool roolFile();
+
 private:
 	void append_unlocked(const char* logline,int len);
 	const std::string m_basename;
@@ -34,7 +33,6 @@ private:
 	int m_count;
 	std::unique_ptr<MutexLock> m_mutex;
 	std::unique_ptr<FileUtil::AppendFile> m_file;
-
 };
 
 

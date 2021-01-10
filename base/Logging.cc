@@ -23,7 +23,6 @@ void once_init(){
 	AsyncLogger_->start();
 }
 
-
 void output(const char* msg, int len){
 
 	pthread_once(&once_control_, once_init);
@@ -52,14 +51,12 @@ void Logger::Impl::formatTime(){
 	strftime(str_t,26,"%Y-%m-%d %H:%M:%S\n",p_time);
 
 	m_stream << str_t;
-	
 }
 
 Logger::Logger(const char* fileName, int line)
 	:m_impl(fileName,line){
 	
 	}
-
 
 Logger::~Logger(){
 	

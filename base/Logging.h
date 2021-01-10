@@ -8,9 +8,7 @@
 
 namespace tt{
 
-
 class AsyncLogging;
-
 
 class Logger{
 public:
@@ -21,21 +19,19 @@ public:
 
 
 	static void setLogFileName(std::string fileName){
+
 		m_logFileName = fileName;
 	}
 
 	static std::string getLogFileName() { return m_logFileName; }
 
-
 private:
+	//内部实际的实现
 	class Impl{
 		public:
 			Impl(const char* fileName, int line);
-
 			void formatTime();
-
 			LogStream m_stream;
-
 			int m_line;
 			std::string m_basename;
 	};
@@ -46,7 +42,5 @@ private:
 };
 
 #define LOG tt::Logger(__FILE__,__LINE__).stream()
-
-
 
 } // tt
