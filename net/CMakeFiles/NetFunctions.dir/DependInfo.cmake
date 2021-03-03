@@ -16,6 +16,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tt/ttWebServer/net/SocketsOps.cc" "/home/tt/ttWebServer/net/CMakeFiles/NetFunctions.dir/SocketsOps.cc.o"
   "/home/tt/ttWebServer/net/TcpConnection.cc" "/home/tt/ttWebServer/net/CMakeFiles/NetFunctions.dir/TcpConnection.cc.o"
   "/home/tt/ttWebServer/net/TcpServer.cc" "/home/tt/ttWebServer/net/CMakeFiles/NetFunctions.dir/TcpServer.cc.o"
+  "/home/tt/ttWebServer/net/Timer.cc" "/home/tt/ttWebServer/net/CMakeFiles/NetFunctions.dir/Timer.cc.o"
+  "/home/tt/ttWebServer/net/TimerQueue.cc" "/home/tt/ttWebServer/net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

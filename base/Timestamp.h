@@ -28,7 +28,7 @@ class Timestamp :   public tt::copyable,
         std::string toString() const;
         std::string toFormattedString(bool showMicroseconds = true) const; 
 
-        bool vaild() const { return m_microSecondsSinceEpoch > 0; }
+        bool valid() const { return m_microSecondsSinceEpoch > 0; }
 
         int64_t microSecondsSinceEpoch() const { return m_microSecondsSinceEpoch; }
         time_t secondsSinceEpoch () const {
@@ -36,8 +36,8 @@ class Timestamp :   public tt::copyable,
             return static_cast<time_t>(m_microSecondsSinceEpoch / kMicrosecondsPerSecond); 
         }
 
-        static Timestamp now();
-        static Timestamp invalid() { return Timestamp(); }
+        static Timestamp now();                                     //获取当前时间
+        static Timestamp invalid() { return Timestamp(); }          //获取一个失效时间
         static Timestamp formUnixTime(time_t t) {
 
             return fromUnixTime(t, 0);
@@ -59,7 +59,7 @@ inline bool operator< (Timestamp lhs, Timestamp rhs) {
     return lhs.microSecondsSinceEpoch() < rhs.microSecondsSinceEpoch();
 }
 
-inline bool operator==(Timestamp lhs, Timestamp rhs) {
+inline bool operator== (Timestamp lhs, Timestamp rhs) {
 
     return lhs.microSecondsSinceEpoch() == rhs.microSecondsSinceEpoch();
 }
@@ -69,6 +69,14 @@ inline double timeDifference(Timestamp high, Timestamp low) {
     int64_t diff = high.microSecondsSinceEpoch() - low.microSecondsSinceEpoch();
     return static_cast<double>(diff) / Timestamp::kMicrosecondsPerSecond;
 }
+
+inline Timestamp addTime(Timestamp timestamp, double seconds) {
+
+    int64_t delta = static_cast<int64_t>(seconds * Timestamp::kMicrosecondsPerSecond);
+
+    return Timestamp(timestamp.microSecondsSinceEpoch() + delta);
+}
+
 
 }   //tt
 #endif 

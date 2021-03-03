@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BaseFunctions.dir/LogStream.cc.o"
   "CMakeFiles/BaseFunctions.dir/Logging.cc.o"
   "CMakeFiles/BaseFunctions.dir/Thread.cc.o"
+  "CMakeFiles/BaseFunctions.dir/Timestamp.cc.o"
   "libBaseFunctions.a"
   "libBaseFunctions.pdb"
 )

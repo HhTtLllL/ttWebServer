@@ -64,3 +64,7 @@ base/CMakeFiles/BaseFunctions.dir/Thread.cc.o
  /home/tt/ttWebServer/base/Thread.cc
  /home/tt/ttWebServer/base/Thread.h
  /home/tt/ttWebServer/base/noncopyable.h
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o
+ /home/tt/ttWebServer/base/Timestamp.cc
+ /home/tt/ttWebServer/base/Timestamp.h
+ /home/tt/ttWebServer/base/copyable.h

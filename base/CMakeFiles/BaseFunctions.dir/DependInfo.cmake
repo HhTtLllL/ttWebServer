@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tt/ttWebServer/base/LogStream.cc" "/home/tt/ttWebServer/base/CMakeFiles/BaseFunctions.dir/LogStream.cc.o"
   "/home/tt/ttWebServer/base/Logging.cc" "/home/tt/ttWebServer/base/CMakeFiles/BaseFunctions.dir/Logging.cc.o"
   "/home/tt/ttWebServer/base/Thread.cc" "/home/tt/ttWebServer/base/CMakeFiles/BaseFunctions.dir/Thread.cc.o"
+  "/home/tt/ttWebServer/base/Timestamp.cc" "/home/tt/ttWebServer/base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

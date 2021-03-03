@@ -193,6 +193,19 @@ base/CMakeFiles/BaseFunctions.dir/Thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BaseFunctions.dir/Thread.cc.s"
 	cd /home/tt/ttWebServer/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tt/ttWebServer/base/Thread.cc -o CMakeFiles/BaseFunctions.dir/Thread.cc.s
 
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o: base/CMakeFiles/BaseFunctions.dir/flags.make
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o: base/Timestamp.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o"
+	cd /home/tt/ttWebServer/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BaseFunctions.dir/Timestamp.cc.o -c /home/tt/ttWebServer/base/Timestamp.cc
+
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BaseFunctions.dir/Timestamp.cc.i"
+	cd /home/tt/ttWebServer/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tt/ttWebServer/base/Timestamp.cc > CMakeFiles/BaseFunctions.dir/Timestamp.cc.i
+
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BaseFunctions.dir/Timestamp.cc.s"
+	cd /home/tt/ttWebServer/base && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tt/ttWebServer/base/Timestamp.cc -o CMakeFiles/BaseFunctions.dir/Timestamp.cc.s
+
 # Object files for target BaseFunctions
 BaseFunctions_OBJECTS = \
 "CMakeFiles/BaseFunctions.dir/AsyncLogging.cc.o" \
@@ -203,7 +216,8 @@ BaseFunctions_OBJECTS = \
 "CMakeFiles/BaseFunctions.dir/LogFile.cc.o" \
 "CMakeFiles/BaseFunctions.dir/LogStream.cc.o" \
 "CMakeFiles/BaseFunctions.dir/Logging.cc.o" \
-"CMakeFiles/BaseFunctions.dir/Thread.cc.o"
+"CMakeFiles/BaseFunctions.dir/Thread.cc.o" \
+"CMakeFiles/BaseFunctions.dir/Timestamp.cc.o"
 
 # External object files for target BaseFunctions
 BaseFunctions_EXTERNAL_OBJECTS =
@@ -217,9 +231,10 @@ base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/LogFile.cc.o
 base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/LogStream.cc.o
 base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/Logging.cc.o
 base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/Thread.cc.o
+base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o
 base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/build.make
 base/libBaseFunctions.a: base/CMakeFiles/BaseFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libBaseFunctions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libBaseFunctions.a"
 	cd /home/tt/ttWebServer/base && $(CMAKE_COMMAND) -P CMakeFiles/BaseFunctions.dir/cmake_clean_target.cmake
 	cd /home/tt/ttWebServer/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BaseFunctions.dir/link.txt --verbose=$(VERBOSE)
 

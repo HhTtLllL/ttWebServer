@@ -1,0 +1,1952 @@
+2020-12-29 20:27:04
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/ttWebServer/http/HttpServer.cc : -48
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:27:47
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:03
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/ttWebServer/http/HttpServer.cc : -48
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:37:17
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:39:52
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/ttWebServer/http/HttpServer.cc : -48
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:40:04
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:10
+HttpServer[dummy] starts listenning on 0.0.0.0:8000--/home/tt/ttWebServer/http/HttpServer.cc : -48
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:43:24
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:43:24
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341
+2020-12-29 20:52:07
+socket::shutdownWrite--/home/tt/ttWebServer/net/SocketsOps.cc : -128
+2020-12-29 20:52:07
+TcpConnection::handleError--/home/tt/ttWebServer/net/TcpConnection.cc : -341

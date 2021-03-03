@@ -5,7 +5,7 @@
 
 using namespace tt;
 
-static_assert(sizeof(Timestamp) == sizeof(int64_t));
+//static_assert(sizeof(Timestamp) == sizeof(int64_t));
 
 /* 
 std::string Timestamp::toString() const {

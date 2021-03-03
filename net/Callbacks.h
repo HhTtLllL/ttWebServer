@@ -5,7 +5,6 @@
 #include <memory>
 #include "../base/Common.h"
 
-
 namespace tt
 {
 

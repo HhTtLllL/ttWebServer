@@ -148,3 +148,29 @@ net/CMakeFiles/NetFunctions.dir/TcpServer.cc.o: net/TcpConnection.h
 net/CMakeFiles/NetFunctions.dir/TcpServer.cc.o: net/TcpServer.cc
 net/CMakeFiles/NetFunctions.dir/TcpServer.cc.o: net/TcpServer.h
 
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: base/Atomic.h
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: base/Common.h
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: base/Timestamp.h
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: base/copyable.h
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: base/noncopyable.h
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: net/Callbacks.h
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: net/Timer.cc
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: net/Timer.h
+
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/Atomic.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/Common.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/CurrentThread.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/LogStream.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/Logging.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/MutexLock.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/Timestamp.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/copyable.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: base/noncopyable.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/Callbacks.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/Channel.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/EventLoop.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/Timer.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/TimerId.h
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/TimerQueue.cc
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/TimerQueue.h
+

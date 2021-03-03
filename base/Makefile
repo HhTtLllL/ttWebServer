@@ -387,6 +387,33 @@ Thread.cc.s:
 	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/BaseFunctions.dir/build.make base/CMakeFiles/BaseFunctions.dir/Thread.cc.s
 .PHONY : Thread.cc.s
 
+Timestamp.o: Timestamp.cc.o
+
+.PHONY : Timestamp.o
+
+# target to build an object file
+Timestamp.cc.o:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/BaseFunctions.dir/build.make base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o
+.PHONY : Timestamp.cc.o
+
+Timestamp.i: Timestamp.cc.i
+
+.PHONY : Timestamp.i
+
+# target to preprocess a source file
+Timestamp.cc.i:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/BaseFunctions.dir/build.make base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.i
+.PHONY : Timestamp.cc.i
+
+Timestamp.s: Timestamp.cc.s
+
+.PHONY : Timestamp.s
+
+# target to generate assembly for a file
+Timestamp.cc.s:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f base/CMakeFiles/BaseFunctions.dir/build.make base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.s
+.PHONY : Timestamp.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -423,6 +450,9 @@ help:
 	@echo "... Thread.o"
 	@echo "... Thread.i"
 	@echo "... Thread.s"
+	@echo "... Timestamp.o"
+	@echo "... Timestamp.i"
+	@echo "... Timestamp.s"
 .PHONY : help
 
 

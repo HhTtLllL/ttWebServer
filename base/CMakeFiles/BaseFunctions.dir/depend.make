@@ -64,3 +64,7 @@ base/CMakeFiles/BaseFunctions.dir/Thread.cc.o: base/Thread.cc
 base/CMakeFiles/BaseFunctions.dir/Thread.cc.o: base/Thread.h
 base/CMakeFiles/BaseFunctions.dir/Thread.cc.o: base/noncopyable.h
 
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o: base/Timestamp.cc
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o: base/Timestamp.h
+base/CMakeFiles/BaseFunctions.dir/Timestamp.cc.o: base/copyable.h
+

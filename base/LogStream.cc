@@ -28,7 +28,6 @@ size_t convert(char buf[],T value){
 		int lsd = static_cast<int>(i % 10);
 		i /= 10;
 		*p++ = zero[lsd];
-		
 	}while(i != 0);
 
 	if(value << 0){

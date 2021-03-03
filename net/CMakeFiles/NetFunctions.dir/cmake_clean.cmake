@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NetFunctions.dir/SocketsOps.cc.o"
   "CMakeFiles/NetFunctions.dir/TcpConnection.cc.o"
   "CMakeFiles/NetFunctions.dir/TcpServer.cc.o"
+  "CMakeFiles/NetFunctions.dir/Timer.cc.o"
+  "CMakeFiles/NetFunctions.dir/TimerQueue.cc.o"
   "libNetFunctions.a"
   "libNetFunctions.pdb"
 )

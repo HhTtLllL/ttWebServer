@@ -232,6 +232,32 @@ net/CMakeFiles/NetFunctions.dir/TcpServer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetFunctions.dir/TcpServer.cc.s"
 	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tt/ttWebServer/net/TcpServer.cc -o CMakeFiles/NetFunctions.dir/TcpServer.cc.s
 
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: net/CMakeFiles/NetFunctions.dir/flags.make
+net/CMakeFiles/NetFunctions.dir/Timer.cc.o: net/Timer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object net/CMakeFiles/NetFunctions.dir/Timer.cc.o"
+	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetFunctions.dir/Timer.cc.o -c /home/tt/ttWebServer/net/Timer.cc
+
+net/CMakeFiles/NetFunctions.dir/Timer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetFunctions.dir/Timer.cc.i"
+	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tt/ttWebServer/net/Timer.cc > CMakeFiles/NetFunctions.dir/Timer.cc.i
+
+net/CMakeFiles/NetFunctions.dir/Timer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetFunctions.dir/Timer.cc.s"
+	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tt/ttWebServer/net/Timer.cc -o CMakeFiles/NetFunctions.dir/Timer.cc.s
+
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/CMakeFiles/NetFunctions.dir/flags.make
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o: net/TimerQueue.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o"
+	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NetFunctions.dir/TimerQueue.cc.o -c /home/tt/ttWebServer/net/TimerQueue.cc
+
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NetFunctions.dir/TimerQueue.cc.i"
+	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tt/ttWebServer/net/TimerQueue.cc > CMakeFiles/NetFunctions.dir/TimerQueue.cc.i
+
+net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NetFunctions.dir/TimerQueue.cc.s"
+	cd /home/tt/ttWebServer/net && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tt/ttWebServer/net/TimerQueue.cc -o CMakeFiles/NetFunctions.dir/TimerQueue.cc.s
+
 # Object files for target NetFunctions
 NetFunctions_OBJECTS = \
 "CMakeFiles/NetFunctions.dir/Acceptor.cc.o" \
@@ -245,7 +271,9 @@ NetFunctions_OBJECTS = \
 "CMakeFiles/NetFunctions.dir/Socket.cc.o" \
 "CMakeFiles/NetFunctions.dir/SocketsOps.cc.o" \
 "CMakeFiles/NetFunctions.dir/TcpConnection.cc.o" \
-"CMakeFiles/NetFunctions.dir/TcpServer.cc.o"
+"CMakeFiles/NetFunctions.dir/TcpServer.cc.o" \
+"CMakeFiles/NetFunctions.dir/Timer.cc.o" \
+"CMakeFiles/NetFunctions.dir/TimerQueue.cc.o"
 
 # External object files for target NetFunctions
 NetFunctions_EXTERNAL_OBJECTS =
@@ -262,9 +290,11 @@ net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/Socket.cc.o
 net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/SocketsOps.cc.o
 net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/TcpConnection.cc.o
 net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/TcpServer.cc.o
+net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/Timer.cc.o
+net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o
 net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/build.make
 net/libNetFunctions.a: net/CMakeFiles/NetFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libNetFunctions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tt/ttWebServer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libNetFunctions.a"
 	cd /home/tt/ttWebServer/net && $(CMAKE_COMMAND) -P CMakeFiles/NetFunctions.dir/cmake_clean_target.cmake
 	cd /home/tt/ttWebServer/net && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NetFunctions.dir/link.txt --verbose=$(VERBOSE)
 

@@ -468,6 +468,60 @@ TcpServer.cc.s:
 	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/TcpServer.cc.s
 .PHONY : TcpServer.cc.s
 
+Timer.o: Timer.cc.o
+
+.PHONY : Timer.o
+
+# target to build an object file
+Timer.cc.o:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/Timer.cc.o
+.PHONY : Timer.cc.o
+
+Timer.i: Timer.cc.i
+
+.PHONY : Timer.i
+
+# target to preprocess a source file
+Timer.cc.i:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/Timer.cc.i
+.PHONY : Timer.cc.i
+
+Timer.s: Timer.cc.s
+
+.PHONY : Timer.s
+
+# target to generate assembly for a file
+Timer.cc.s:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/Timer.cc.s
+.PHONY : Timer.cc.s
+
+TimerQueue.o: TimerQueue.cc.o
+
+.PHONY : TimerQueue.o
+
+# target to build an object file
+TimerQueue.cc.o:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.o
+.PHONY : TimerQueue.cc.o
+
+TimerQueue.i: TimerQueue.cc.i
+
+.PHONY : TimerQueue.i
+
+# target to preprocess a source file
+TimerQueue.cc.i:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.i
+.PHONY : TimerQueue.cc.i
+
+TimerQueue.s: TimerQueue.cc.s
+
+.PHONY : TimerQueue.s
+
+# target to generate assembly for a file
+TimerQueue.cc.s:
+	cd /home/tt/ttWebServer && $(MAKE) $(MAKESILENT) -f net/CMakeFiles/NetFunctions.dir/build.make net/CMakeFiles/NetFunctions.dir/TimerQueue.cc.s
+.PHONY : TimerQueue.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -513,6 +567,12 @@ help:
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"
+	@echo "... Timer.o"
+	@echo "... Timer.i"
+	@echo "... Timer.s"
+	@echo "... TimerQueue.o"
+	@echo "... TimerQueue.i"
+	@echo "... TimerQueue.s"
 .PHONY : help
 
 
